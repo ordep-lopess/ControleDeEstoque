@@ -136,7 +136,7 @@ CREATE TABLE `saidas_produtos` (
 </div>
 
 ### 🗎 Documentação 
-A documentação da API está como Documentação.pdf .
+A documentação da API está como <a href="https://github.com/ordep-lopess/ControleDeEstoque/blob/main/Documenta%C3%A7%C3%A3o.pdf">Documentação.pdf .
 
 
 ### 🛠 Tecnologias e Ferramentas Utilizadas:
