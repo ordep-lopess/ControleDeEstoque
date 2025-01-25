@@ -96,43 +96,43 @@ CREATE TABLE `saidas_produtos` (
 ### Tela Inicial:
 
 <div>
-  <img src="https://github.com/ordep-lopess/ControleDeEstoque/blob/main/TelaInicial.png?raw=true" width="500px"/>
-</div> 
+  <img src="https://github.com/ordep-lopess/ControleDeEstoque/blob/main/img/TelaInicial.png?raw=true" width="500px"/>
+</div>
 
 ### Criar conta:
 
 <div>
-  <img src="https://github.com/ordep-lopess/ControleDeEstoque/blob/main/CriarConta.png?raw=true" width="500px"/>
+  <img src="https://github.com/ordep-lopess/ControleDeEstoque/blob/main/img/CriarConta.png?raw=true" width="500px"/>
 </div><br>
 
 ### Saída de produtos:
 
 <div>
-  <img src="https://github.com/ordep-lopess/ControleDeEstoque/blob/main/SaidaProd.png?raw=true" width="500px"/>
+  <img src="https://github.com/ordep-lopess/ControleDeEstoque/blob/main/img/SaidaProd.png?raw=true" width="500px"/>
 </div>
 
 ### Lista:
 
 <div>
-  <img src="https://github.com/ordep-lopess/ControleDeEstoque/blob/main/ListaProduto.png?raw=true" width="500px"/>
+  <img src="https://github.com/ordep-lopess/ControleDeEstoque/blob/main/img/ListaProduto.png?raw=true" width="500px"/>
 </div><br>
 <div>
-  <img src="https://github.com/ordep-lopess/ControleDeEstoque/blob/main/ListaCliente.png?raw=true" width="500px"/>
+  <img src="https://github.com/ordep-lopess/ControleDeEstoque/blob/main/img/ListaCliente.png?raw=true" width="500px"/>
 </div>
 
 ### Cadastrar:
 
 <div>
-  <img src="https://github.com/ordep-lopess/ControleDeEstoque/blob/main/CadastroProd.png?raw=true" width="300px"/>
+  <img src="https://github.com/ordep-lopess/ControleDeEstoque/blob/main/img/CadastroProd.png?raw=true" width="300px"/>
 </div><br>
 <div>
-  <img src="https://github.com/ordep-lopess/ControleDeEstoque/blob/main/CadastroCliente.png?raw=true" width="300px"/>
+  <img src="https://github.com/ordep-lopess/ControleDeEstoque/blob/main/img/CadastroCliente.png?raw=true" width="300px"/>
 </div>
 
 ### Alterar e/ou excluir:
 
 <div>
-  <img src="https://github.com/ordep-lopess/ControleDeEstoque/blob/main/AlterarPerfil.png?raw=true" width="500px"/>
+  <img src="https://github.com/ordep-lopess/ControleDeEstoque/blob/main/img/AlterarPerfil.png?raw=true" width="500px"/>
 </div>
 
 ### 🗎 Documentação 
