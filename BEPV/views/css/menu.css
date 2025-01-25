@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+
+.logo {
+    position: absolute;
+    left: 100px;
+    top: 15px;
+}
+
+/* Barra de Navegação */
+nav.menu-lateral {
+    width: 70px;
+    height: 100%;
+    background-color: black;
+    padding: 0;
+    box-shadow: 3px 0 0 #e70000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: width 0.5s;
+    margin-left: -5px;
+    padding-top: 50px;
+    z-index: 1000;
+}
+
+nav.menu-lateral.expandir {
+    width: 300px;
+}
+
+.btn-expandir {
+    width: 100%;
+    padding-left: 10px;
+    margin-left: 16px;
+    margin-top: -15px;
+    padding-bottom: 10px;
+}
+
+.btn-expandir > i {
+    color: white;
+    font-size: 24px;
+}
+
+ul {
+    height: 100%;
+    list-style-type: none;
+    margin-left: -30px;
+}
+
+ul li.item-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    margin-bottom: 3px;
+    line-height: 40px;
+}
+
+ul li.item-menu a .txt-link {
+    margin-left: 70px;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+nav.menu-lateral.expandir .txt-link {
+    margin-left: 40px;
+}
+
+ul li.item-menu a .icon > i {
+    font-size: 38px;
+}
+
+ul li.item-menu:hover {
+    margin-left: -5px;
+    background-color: #e70000;
+}
+
+ul li.item-menu {
+    transition: margin-left 0.2s, background-color 0.2s;
+}
+
+ul li.ativo {
+    background-color: #e70000;
+}
+
+
+/* bt de entrada e saída */
+.btn-open-form {
+    background-color: #e70000;
+    color: white;
+    padding: 15px 20px;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 4.2ch;
+}
+
+.btn-open-form:hover {
+    background-color: black;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+input[type="number"],
+select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+
+.search-container .btn-search {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-left: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+.search-container .btn-search i {
+    color: white; 
+}
+
+.search-container .btn-search:hover {
+    background-color: grey; 
+}
+
+.btn-save {
+    background-color:#e70000;
+    color: white; 
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn-save:hover {
+    background-color: black; 
+}
+.row > .col-md-3:nth-child(-n+4) {
+    padding-left: -2ch; /* Adicionando o recuo apenas à primeira linha */
+}

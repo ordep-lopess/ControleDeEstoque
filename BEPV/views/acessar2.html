@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BEPV - Criar Conta</title>
+    <link rel="stylesheet" href="CSS/acessar.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <style>
+      .texto a {
+        text-decoration: none;
+        color: #e70000;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html"><img src="imagens/logo1.png" alt="Logo" /></a>
+      </div>
+      <div class="center">
+        <div class="menu">
+          <a href="acessar.html">Acesso</a>
+          <a href="sobre.html">Sobre Nós</a>
+        </div>
+      </div>
+    </header>
+
+      <div class="container">
+        <div class="texto">
+          <h1>Seja bem-vindo <br />a <a href="acessar.html">BEPV</a></h1>
+          <p>Seu estoque muito mais organizado!</p>
+        </div>
+        <form action="../controllers/cadastrar_usuario.php" method="post">
+          <h1>Criar Conta</h1>
+          <p>
+            Preencha as informações para criar sua conta na BEPV <br />Lembre-se
+            da sua senha!
+          </p>
+          <div class="input-single">
+            <input
+              type="text"
+              name="nome"
+              id="salao-box"
+              class="input"
+              autocomplete="off"
+              required
+            />
+            <label for="salao-box">Digite o nome do salão</label>
+          </div>
+          <div class="input-single">
+            <input
+              type="email"
+              name="email"
+              id="email-box"
+              class="input"
+              autocomplete="off"
+              required
+            />
+            <label for="email-box">Digite seu e-mail</label>
+          </div>
+          <div class="input-single">
+            <input
+              type="password"
+              name="senha"
+              id="senha-box"
+              class="input"
+              autocomplete="off"
+              required
+              pattern=".{6,}"
+              title="A senha deve ter pelo menos 6 caracteres"
+            />
+            <label for="senha-box">Crie uma senha</label>
+          </div>
+          <br />
+          <button type="submit" class="btn btn-danger">Criar Conta</button>
+        </form>
+      </div>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

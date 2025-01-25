@@ -1,0 +1,83 @@
+html {
+    zoom: 100%;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px; /* Limita a largura máxima */
+    margin: 0 auto;
+}
+
+.card {
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.popup {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.close-button {
+    cursor: pointer;
+    float: right;
+    font-size: 20px;
+}
+
+h2 {
+    margin-top: 200px;
+}
+
+/* Centralizando a tabela e ajustando o tamanho */
+.table-container {
+    width: 80%; /* Definindo a largura da tabela para 80% da tela */
+    margin: 20px auto; /* Centraliza a tabela com uma margem de 20px em cima e embaixo */
+}
+
+.table {
+    width: 90%; /* Ocupa toda a largura do contêiner */
+    margin-top: 150px;
+    margin-left: 100px;
+    box-sizing: border-box;
+    border-collapse: collapse; /* Importante para ver o efeito do border-radius */
+    border-radius: 10px; /* Arredonda as bordas da tabela */
+    overflow: hidden; /* Garante que o conteúdo segue o border-radius */
+}
+
+.table th, .table td {
+    padding: 15px; /* Aumenta o espaçamento para esticar as linhas */
+    line-height: 1.8; /* Ajusta a altura da linha */
+    border-radius: 5px; /* Arredonda as bordas das células */
+}
+
+.table th {
+    background-color: #e70000 !important;/* Cor de fundo para o cabeçalho */
+    color: white !important; /* Texto branco no cabeçalho */
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1; /* Efeito de hover nas linhas */
+}
