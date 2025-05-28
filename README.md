@@ -93,25 +93,25 @@ CREATE TABLE `saidas_produtos` (
 5. **Alterar e/ou excluir perfil**  
    - Altere o nome, e-mail, senha ou exclua o perfil.
 
-### Tela Inicial:
+### 🏠 Tela Inicial:
 
 <div>
   <img src="https://github.com/ordep-lopess/ControleDeEstoque/blob/main/img/TelaInicial.png?raw=true" width="500px"/>
 </div>
 
-### Criar conta:
+### 📝 Criar Conta:
 
 <div>
   <img src="https://github.com/ordep-lopess/ControleDeEstoque/blob/main/img/CriarConta.png?raw=true" width="500px"/>
 </div><br>
 
-### Saída de produtos:
+### 📦 Saída de Produtos:
 
 <div>
   <img src="https://github.com/ordep-lopess/ControleDeEstoque/blob/main/img/SaidaProd.png?raw=true" width="500px"/>
 </div>
 
-### Lista:
+### 📜 Lista de Produtos e Clientes:
 
 <div>
   <img src="https://github.com/ordep-lopess/ControleDeEstoque/blob/main/img/ListaProduto.png?raw=true" width="500px"/>
@@ -120,7 +120,7 @@ CREATE TABLE `saidas_produtos` (
   <img src="https://github.com/ordep-lopess/ControleDeEstoque/blob/main/img/ListaCliente.png?raw=true" width="500px"/>
 </div>
 
-### Cadastrar:
+### 🆕 Cadastrar Produto e Cliente:
 
 <div>
   <img src="https://github.com/ordep-lopess/ControleDeEstoque/blob/main/img/CadastroProd.png?raw=true" width="300px"/>
@@ -129,7 +129,7 @@ CREATE TABLE `saidas_produtos` (
   <img src="https://github.com/ordep-lopess/ControleDeEstoque/blob/main/img/CadastroCliente.png?raw=true" width="300px"/>
 </div>
 
-### Alterar e/ou excluir:
+### 🔄 Alterar e/ou Excluir:
 
 <div>
   <img src="https://github.com/ordep-lopess/ControleDeEstoque/blob/main/img/AlterarPerfil.png?raw=true" width="500px"/>
